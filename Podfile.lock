@@ -1,0 +1,76 @@
+PODS:
+  - AFNetworking (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+    - AFNetworking/UIKit
+  - AFNetworking/NSURLConnection (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.0)
+  - AFNetworking/Security (2.5.0)
+  - AFNetworking/Serialization (2.5.0)
+  - AFNetworking/UIKit (2.5.0):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - OMGHTTPURLRQ (2.1):
+    - OMGHTTPURLRQ/RQ
+  - OMGHTTPURLRQ/FormURLEncode (2.1)
+  - OMGHTTPURLRQ/RQ (2.1):
+    - OMGHTTPURLRQ/FormURLEncode
+    - OMGHTTPURLRQ/UserAgent
+  - OMGHTTPURLRQ/UserAgent (2.1)
+  - PromiseKit (1.0.3):
+    - PromiseKit/NSNotificationCenter
+    - PromiseKit/NSURLConnection
+    - PromiseKit/Pause
+    - PromiseKit/UIActionSheet
+    - PromiseKit/UIAlertView
+    - PromiseKit/UIView
+    - PromiseKit/UIViewController
+    - PromiseKit/Until
+    - PromiseKit/When
+  - PromiseKit-AFNetworking (0.1.5):
+    - AFNetworking (~> 2.0)
+    - PromiseKit/Promise
+  - PromiseKit/NSNotificationCenter (1.0.3):
+    - PromiseKit/Promise
+  - PromiseKit/NSURLConnection (1.0.3):
+    - OMGHTTPURLRQ
+    - PromiseKit/Promise
+  - PromiseKit/Pause (1.0.3):
+    - PromiseKit/Promise
+  - PromiseKit/Promise (1.0.3)
+  - PromiseKit/UIActionSheet (1.0.3):
+    - PromiseKit/Promise
+  - PromiseKit/UIAlertView (1.0.3):
+    - PromiseKit/Promise
+  - PromiseKit/UIView (1.0.3):
+    - PromiseKit/Promise
+  - PromiseKit/UIViewController (1.0.3):
+    - PromiseKit/Promise
+  - PromiseKit/Until (1.0.3):
+    - PromiseKit/Promise
+    - PromiseKit/When
+  - PromiseKit/When (1.0.3):
+    - PromiseKit/Promise
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5)
+  - PromiseKit (~> 1.0)
+  - PromiseKit-AFNetworking (~> 0.1)
+
+SPEC CHECKSUMS:
+  AFNetworking: 0f54cb5d16ce38c1b76948faffb8d5fb705021c7
+  OMGHTTPURLRQ: f8c515dfd2f57a5d74c710978f600231f52afec5
+  PromiseKit: 2988568ddea84e4e42951dbfc7255e7f95a93722
+  PromiseKit-AFNetworking: 16db750b394dcd12aa8527eb1bb9f209a36a49f7
+
+COCOAPODS: 0.34.4

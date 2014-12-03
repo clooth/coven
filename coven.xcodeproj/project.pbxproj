@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		032274D61A2F4E1C00173AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 032274D51A2F4E1C00173AF8 /* main.m */; };
 		032274D91A2F4E1C00173AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 032274D81A2F4E1C00173AF8 /* AppDelegate.m */; };
-		032274DC1A2F4E1C00173AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 032274DB1A2F4E1C00173AF8 /* ViewController.m */; };
 		032274DF1A2F4E1C00173AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032274DD1A2F4E1C00173AF8 /* Main.storyboard */; };
 		032274E11A2F4E1C00173AF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032274E01A2F4E1C00173AF8 /* Images.xcassets */; };
-		032274E41A2F4E1C00173AF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032274E21A2F4E1C00173AF8 /* LaunchScreen.xib */; };
 		032274F01A2F4E1C00173AF8 /* covenTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 032274EF1A2F4E1C00173AF8 /* covenTests.m */; };
+		032274FD1A2F4E9800173AF8 /* CovenAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032274FC1A2F4E9800173AF8 /* CovenAPI.swift */; };
+		032275011A2F4F3F00173AF8 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032275001A2F4F3F00173AF8 /* ListViewController.swift */; };
+		032275031A2F500B00173AF8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 032275021A2F500B00173AF8 /* LaunchScreen.xib */; };
+		E78CBA23A2E3F7E351F835D6 /* libPods-coven.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEEEC84130FC85C5D0A33F85 /* libPods-coven.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		030BB1AE26E487E73D9DA967 /* Pods-coven.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coven.debug.xcconfig"; path = "Pods/Target Support Files/Pods-coven/Pods-coven.debug.xcconfig"; sourceTree = "<group>"; };
 		032274D01A2F4E1C00173AF8 /* coven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = coven.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		032274D41A2F4E1C00173AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		032274D51A2F4E1C00173AF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		032274D71A2F4E1C00173AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		032274D81A2F4E1C00173AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		032274DA1A2F4E1C00173AF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		032274DB1A2F4E1C00173AF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		032274DE1A2F4E1C00173AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		032274E01A2F4E1C00173AF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		032274E31A2F4E1C00173AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		032274E91A2F4E1C00173AF8 /* covenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = covenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		032274EE1A2F4E1C00173AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		032274EF1A2F4E1C00173AF8 /* covenTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = covenTests.m; sourceTree = "<group>"; };
+		032274FB1A2F4E9800173AF8 /* coven-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "coven-Bridging-Header.h"; sourceTree = "<group>"; };
+		032274FC1A2F4E9800173AF8 /* CovenAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CovenAPI.swift; sourceTree = "<group>"; };
+		032275001A2F4F3F00173AF8 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		032275021A2F500B00173AF8 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		708711D1C764A1FA4277504B /* Pods-coven.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-coven.release.xcconfig"; path = "Pods/Target Support Files/Pods-coven/Pods-coven.release.xcconfig"; sourceTree = "<group>"; };
+		CEEEC84130FC85C5D0A33F85 /* libPods-coven.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-coven.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E78CBA23A2E3F7E351F835D6 /* libPods-coven.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +73,8 @@
 				032274D21A2F4E1C00173AF8 /* coven */,
 				032274EC1A2F4E1C00173AF8 /* covenTests */,
 				032274D11A2F4E1C00173AF8 /* Products */,
+				9D1B07128960FEC0A23069F5 /* Pods */,
+				A2418129CDEA1C0937C61DFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,25 +90,22 @@
 		032274D21A2F4E1C00173AF8 /* coven */ = {
 			isa = PBXGroup;
 			children = (
-				032274D71A2F4E1C00173AF8 /* AppDelegate.h */,
-				032274D81A2F4E1C00173AF8 /* AppDelegate.m */,
-				032274DA1A2F4E1C00173AF8 /* ViewController.h */,
-				032274DB1A2F4E1C00173AF8 /* ViewController.m */,
-				032274DD1A2F4E1C00173AF8 /* Main.storyboard */,
-				032274E01A2F4E1C00173AF8 /* Images.xcassets */,
-				032274E21A2F4E1C00173AF8 /* LaunchScreen.xib */,
-				032274D31A2F4E1C00173AF8 /* Supporting Files */,
+				032274F91A2F4E7B00173AF8 /* Classes */,
+				032274D31A2F4E1C00173AF8 /* Support */,
 			);
 			path = coven;
 			sourceTree = "<group>";
 		};
-		032274D31A2F4E1C00173AF8 /* Supporting Files */ = {
+		032274D31A2F4E1C00173AF8 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				032275021A2F500B00173AF8 /* LaunchScreen.xib */,
+				032274E01A2F4E1C00173AF8 /* Images.xcassets */,
+				032274FB1A2F4E9800173AF8 /* coven-Bridging-Header.h */,
 				032274D41A2F4E1C00173AF8 /* Info.plist */,
 				032274D51A2F4E1C00173AF8 /* main.m */,
 			);
-			name = "Supporting Files";
+			path = Support;
 			sourceTree = "<group>";
 		};
 		032274EC1A2F4E1C00173AF8 /* covenTests */ = {
@@ -116,7 +122,60 @@
 			children = (
 				032274EE1A2F4E1C00173AF8 /* Info.plist */,
 			);
-			name = "Supporting Files";
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		032274F91A2F4E7B00173AF8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				032274FA1A2F4E7F00173AF8 /* API */,
+				032274FE1A2F4EAC00173AF8 /* Controllers */,
+				032274FF1A2F4EB800173AF8 /* Models */,
+				032274D71A2F4E1C00173AF8 /* AppDelegate.h */,
+				032274D81A2F4E1C00173AF8 /* AppDelegate.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		032274FA1A2F4E7F00173AF8 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				032274FC1A2F4E9800173AF8 /* CovenAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		032274FE1A2F4EAC00173AF8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				032275001A2F4F3F00173AF8 /* ListViewController.swift */,
+				032274DD1A2F4E1C00173AF8 /* Main.storyboard */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		032274FF1A2F4EB800173AF8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		9D1B07128960FEC0A23069F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				030BB1AE26E487E73D9DA967 /* Pods-coven.debug.xcconfig */,
+				708711D1C764A1FA4277504B /* Pods-coven.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A2418129CDEA1C0937C61DFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEEEC84130FC85C5D0A33F85 /* libPods-coven.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 032274F31A2F4E1C00173AF8 /* Build configuration list for PBXNativeTarget "coven" */;
 			buildPhases = (
+				6FAECB54A737B761BC69A358 /* Check Pods Manifest.lock */,
 				032274CC1A2F4E1C00173AF8 /* Sources */,
 				032274CD1A2F4E1C00173AF8 /* Frameworks */,
 				032274CE1A2F4E1C00173AF8 /* Resources */,
+				C796227045BD196736C69337 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -200,7 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				032274DF1A2F4E1C00173AF8 /* Main.storyboard in Resources */,
-				032274E41A2F4E1C00173AF8 /* LaunchScreen.xib in Resources */,
+				032275031A2F500B00173AF8 /* LaunchScreen.xib in Resources */,
 				032274E11A2F4E1C00173AF8 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,13 +275,47 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6FAECB54A737B761BC69A358 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C796227045BD196736C69337 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-coven/Pods-coven-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		032274CC1A2F4E1C00173AF8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032274DC1A2F4E1C00173AF8 /* ViewController.m in Sources */,
 				032274D91A2F4E1C00173AF8 /* AppDelegate.m in Sources */,
+				032274FD1A2F4E9800173AF8 /* CovenAPI.swift in Sources */,
+				032275011A2F4F3F00173AF8 /* ListViewController.swift in Sources */,
 				032274D61A2F4E1C00173AF8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +345,6 @@
 				032274DE1A2F4E1C00173AF8 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		032274E21A2F4E1C00173AF8 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				032274E31A2F4E1C00173AF8 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -341,21 +428,30 @@
 		};
 		032274F41A2F4E1C00173AF8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 030BB1AE26E487E73D9DA967 /* Pods-coven.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = coven/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = coven/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "coven/Support/coven-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		032274F51A2F4E1C00173AF8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 708711D1C764A1FA4277504B /* Pods-coven.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = coven/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = coven/Support/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "coven/Support/coven-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -371,7 +467,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = covenTests/Info.plist;
+				INFOPLIST_FILE = "covenTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coven.app/coven";
@@ -386,7 +482,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = covenTests/Info.plist;
+				INFOPLIST_FILE = "covenTests/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/coven.app/coven";
@@ -412,6 +508,7 @@
 				032274F51A2F4E1C00173AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		032274F61A2F4E1C00173AF8 /* Build configuration list for PBXNativeTarget "covenTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +517,7 @@
 				032274F81A2F4E1C00173AF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

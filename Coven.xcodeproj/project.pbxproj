@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030DFF621BC5DC3800D5756A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DFF611BC5DC3800D5756A /* AppDelegate.swift */; };
+		030DFF641BC5DC3800D5756A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030DFF631BC5DC3800D5756A /* Assets.xcassets */; };
+		030DFF671BC5DC3800D5756A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 030DFF651BC5DC3800D5756A /* LaunchScreen.storyboard */; };
+		030DFF721BC5DC3800D5756A /* CovenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DFF711BC5DC3800D5756A /* CovenTests.swift */; };
+		030DFF7D1BC5DC3800D5756A /* CovenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030DFF7C1BC5DC3800D5756A /* CovenUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		030DFF6E1BC5DC3800D5756A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030DFF561BC5DC3800D5756A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030DFF5D1BC5DC3800D5756A;
+			remoteInfo = Coven;
+		};
+		030DFF791BC5DC3800D5756A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 030DFF561BC5DC3800D5756A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 030DFF5D1BC5DC3800D5756A;
+			remoteInfo = Coven;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		030DFF5E1BC5DC3800D5756A /* Coven.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Coven.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFF611BC5DC3800D5756A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		030DFF631BC5DC3800D5756A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030DFF661BC5DC3800D5756A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		030DFF681BC5DC3800D5756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030DFF6D1BC5DC3800D5756A /* CovenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CovenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFF711BC5DC3800D5756A /* CovenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovenTests.swift; sourceTree = "<group>"; };
+		030DFF731BC5DC3800D5756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		030DFF781BC5DC3800D5756A /* CovenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CovenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		030DFF7C1BC5DC3800D5756A /* CovenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CovenUITests.swift; sourceTree = "<group>"; };
+		030DFF7E1BC5DC3800D5756A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030DFF5B1BC5DC3800D5756A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF6A1BC5DC3800D5756A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF751BC5DC3800D5756A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030DFF551BC5DC3800D5756A = {
+			isa = PBXGroup;
+			children = (
+				030DFF601BC5DC3800D5756A /* Coven */,
+				030DFF701BC5DC3800D5756A /* CovenTests */,
+				030DFF7B1BC5DC3800D5756A /* CovenUITests */,
+				030DFF5F1BC5DC3800D5756A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030DFF5F1BC5DC3800D5756A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF5E1BC5DC3800D5756A /* Coven.app */,
+				030DFF6D1BC5DC3800D5756A /* CovenTests.xctest */,
+				030DFF781BC5DC3800D5756A /* CovenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030DFF601BC5DC3800D5756A /* Coven */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF611BC5DC3800D5756A /* AppDelegate.swift */,
+				030DFF631BC5DC3800D5756A /* Assets.xcassets */,
+				030DFF651BC5DC3800D5756A /* LaunchScreen.storyboard */,
+				030DFF681BC5DC3800D5756A /* Info.plist */,
+			);
+			path = Coven;
+			sourceTree = "<group>";
+		};
+		030DFF701BC5DC3800D5756A /* CovenTests */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF711BC5DC3800D5756A /* CovenTests.swift */,
+				030DFF731BC5DC3800D5756A /* Info.plist */,
+			);
+			path = CovenTests;
+			sourceTree = "<group>";
+		};
+		030DFF7B1BC5DC3800D5756A /* CovenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				030DFF7C1BC5DC3800D5756A /* CovenUITests.swift */,
+				030DFF7E1BC5DC3800D5756A /* Info.plist */,
+			);
+			path = CovenUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030DFF5D1BC5DC3800D5756A /* Coven */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFF811BC5DC3800D5756A /* Build configuration list for PBXNativeTarget "Coven" */;
+			buildPhases = (
+				030DFF5A1BC5DC3800D5756A /* Sources */,
+				030DFF5B1BC5DC3800D5756A /* Frameworks */,
+				030DFF5C1BC5DC3800D5756A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Coven;
+			productName = Coven;
+			productReference = 030DFF5E1BC5DC3800D5756A /* Coven.app */;
+			productType = "com.apple.product-type.application";
+		};
+		030DFF6C1BC5DC3800D5756A /* CovenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFF841BC5DC3800D5756A /* Build configuration list for PBXNativeTarget "CovenTests" */;
+			buildPhases = (
+				030DFF691BC5DC3800D5756A /* Sources */,
+				030DFF6A1BC5DC3800D5756A /* Frameworks */,
+				030DFF6B1BC5DC3800D5756A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030DFF6F1BC5DC3800D5756A /* PBXTargetDependency */,
+			);
+			name = CovenTests;
+			productName = CovenTests;
+			productReference = 030DFF6D1BC5DC3800D5756A /* CovenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		030DFF771BC5DC3800D5756A /* CovenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030DFF871BC5DC3800D5756A /* Build configuration list for PBXNativeTarget "CovenUITests" */;
+			buildPhases = (
+				030DFF741BC5DC3800D5756A /* Sources */,
+				030DFF751BC5DC3800D5756A /* Frameworks */,
+				030DFF761BC5DC3800D5756A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				030DFF7A1BC5DC3800D5756A /* PBXTargetDependency */,
+			);
+			name = CovenUITests;
+			productName = CovenUITests;
+			productReference = 030DFF781BC5DC3800D5756A /* CovenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030DFF561BC5DC3800D5756A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = sizeof.io;
+				TargetAttributes = {
+					030DFF5D1BC5DC3800D5756A = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					030DFF6C1BC5DC3800D5756A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 030DFF5D1BC5DC3800D5756A;
+					};
+					030DFF771BC5DC3800D5756A = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = 030DFF5D1BC5DC3800D5756A;
+					};
+				};
+			};
+			buildConfigurationList = 030DFF591BC5DC3800D5756A /* Build configuration list for PBXProject "Coven" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030DFF551BC5DC3800D5756A;
+			productRefGroup = 030DFF5F1BC5DC3800D5756A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030DFF5D1BC5DC3800D5756A /* Coven */,
+				030DFF6C1BC5DC3800D5756A /* CovenTests */,
+				030DFF771BC5DC3800D5756A /* CovenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030DFF5C1BC5DC3800D5756A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFF641BC5DC3800D5756A /* Assets.xcassets in Resources */,
+				030DFF671BC5DC3800D5756A /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF6B1BC5DC3800D5756A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF761BC5DC3800D5756A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030DFF5A1BC5DC3800D5756A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFF621BC5DC3800D5756A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF691BC5DC3800D5756A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFF721BC5DC3800D5756A /* CovenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		030DFF741BC5DC3800D5756A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030DFF7D1BC5DC3800D5756A /* CovenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		030DFF6F1BC5DC3800D5756A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030DFF5D1BC5DC3800D5756A /* Coven */;
+			targetProxy = 030DFF6E1BC5DC3800D5756A /* PBXContainerItemProxy */;
+		};
+		030DFF7A1BC5DC3800D5756A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 030DFF5D1BC5DC3800D5756A /* Coven */;
+			targetProxy = 030DFF791BC5DC3800D5756A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		030DFF651BC5DC3800D5756A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				030DFF661BC5DC3800D5756A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		030DFF7F1BC5DC3800D5756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030DFF801BC5DC3800D5756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030DFF821BC5DC3800D5756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.Coven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		030DFF831BC5DC3800D5756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Coven/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.Coven;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		030DFF851BC5DC3800D5756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CovenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.CovenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coven.app/Coven";
+			};
+			name = Debug;
+		};
+		030DFF861BC5DC3800D5756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CovenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.CovenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coven.app/Coven";
+			};
+			name = Release;
+		};
+		030DFF881BC5DC3800D5756A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CovenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.CovenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coven;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		030DFF891BC5DC3800D5756A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CovenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.sizeof.CovenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Coven;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030DFF591BC5DC3800D5756A /* Build configuration list for PBXProject "Coven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFF7F1BC5DC3800D5756A /* Debug */,
+				030DFF801BC5DC3800D5756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030DFF811BC5DC3800D5756A /* Build configuration list for PBXNativeTarget "Coven" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFF821BC5DC3800D5756A /* Debug */,
+				030DFF831BC5DC3800D5756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		030DFF841BC5DC3800D5756A /* Build configuration list for PBXNativeTarget "CovenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFF851BC5DC3800D5756A /* Debug */,
+				030DFF861BC5DC3800D5756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		030DFF871BC5DC3800D5756A /* Build configuration list for PBXNativeTarget "CovenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030DFF881BC5DC3800D5756A /* Debug */,
+				030DFF891BC5DC3800D5756A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030DFF561BC5DC3800D5756A /* Project object */;
+}
